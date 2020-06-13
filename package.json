@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-battery",
+  "version": "1.0.0",
+  "description": "A Node.js Service to report battery status",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/matiaslahore/nodejs-battery.git"
+  },
+  "author": "Mati Lahore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matiaslahore/nodejs-battery/issues"
+  },
+  "homepage": "https://github.com/matiaslahore/nodejs-battery#readme",
+  "dependencies": {
+    "battery-level": "^3.0.0",
+    "express": "^4.17.1",
+    "is-charging": "^2.0.0",
+    "node-cron": "^2.0.3"
+  }
+}
